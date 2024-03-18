@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Web App</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <h1>Food Web App</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="orderhistory.html">Order History</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="home">
+      <h2>Welcome to Food Web App</h2>
+      <p>Order your favorite meals online and get them delivered to your doorstep.</p>
+    </section>
+
+    <section id="menu" class="menu">
+      <h2>Our Fast Selling Menu</h2>
+      <div class="menu-item">
+        <img src="2 (2).jpeg" alt="Food Item 1">
+        <h3>Food Item 1</h3>
+        <p>Description of Food Item 1.</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="menu-item">
+        <img src="3.jpeg" alt="Food Item 2">
+        <h3>Food Item 2</h3>
+        <p>Description of Food Item 2.</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <!-- More menu items can be added here -->
+    </section>
+
+    <section id="cart" class="cart">
+      <h2>Your Cart</h2>
+      <ul>
+        <!-- Cart items will be displayed here -->
+      </ul>
+      <button>Place Order</button>
+    </section>
+
+    <section id="order-history" class="order-history">
+      <h2>Your Order History</h2>
+      <ul>
+        <!-- Order history will be displayed here -->
+      </ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
